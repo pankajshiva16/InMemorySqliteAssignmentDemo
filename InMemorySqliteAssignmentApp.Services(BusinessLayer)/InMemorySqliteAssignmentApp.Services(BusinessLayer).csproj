@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>InMemorySqliteAssignmentApp.Services_BusinessLayer_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InMemorySqliteAssignmentApp.Domain\InMemorySqliteAssignmentApp.Domain.csproj" />
+    <ProjectReference Include="..\InMemorySqliteAssignmentApp.Infrastructure(Data)\InMemorySqliteAssignmentApp.Infrastructure(Data).csproj" />
+  </ItemGroup>
+
+</Project>
